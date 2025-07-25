@@ -1,0 +1,211 @@
+html, body {
+	height: 99%; /* responsive*/
+	margin: 5 px;
+}
+
+.wh-100 {
+  width: 100%;
+}
+
+
+
+header {
+	height: 15%;
+	width: 15%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+
+button {
+	background-color: #7192BE;
+	height: 35px;
+}
+
+#socials {
+	position: fixed;
+	width: 50%;
+	bottom: 10px;
+}
+
+#socials a {
+	background-color: #432F75;
+	border-radius: 10%;
+	padding: 10px;
+	margin: 5px;
+	display: left;
+	color: white;
+}
+
+
+
+nav li {
+  float: left;
+  text-align: center;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  width:25%;
+
+
+
+}
+
+/* nav li:last-child {border-right: none;} */
+
+
+nav li a {
+  display: block;
+  padding: 16px;
+  color: white;
+
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+nav ul {
+	list-style-type: none;
+  padding: 3%;
+  overflow: hidden;
+  background-color: #156082;
+
+
+
+}
+
+
+h1{
+
+	background-color:#432F75;
+	color: white !important;
+	text-align: left;
+	padding: 20px;
+}
+
+h2{
+	
+	background-color:#246068;
+	color: white !important;
+	padding: 10px;
+	
+}
+
+h3{
+	background-color:#1D85B3;
+	color: white !important;
+
+}
+
+
+
+
+
+
+h4{
+	background-color:#50608F;
+	color: white !important;
+
+}
+
+.main-content-box1 {
+		
+	 
+	 width: 1200px;
+	 height: 900px;
+	 border: 3px solid #012E34;
+
+}
+
+
+.main-content-box2 {
+
+	
+	 width: 1200px;
+	 height: 900px;
+	 border: 3px solid #012E34;
+}
+
+.sup-content-box1 {
+	 
+	  width: 500px;
+	  height: 900px;
+
+	
+}
+
+
+
+
+
+.sup-content-box1 p {
+  	margin: 5px;
+  	padding: 10px;
+  	overflow: hidden;
+  	background-color: #897BAF;
+    border-radius: 5%;
+	  text-align: center;
+	  font-style: italic;
+		color: black !important ;
+}
+
+
+
+.sup-content-box2 {
+
+	 
+	  width: 500px;
+	  height: 900px;
+
+	
+}
+
+
+
+.sup-content-box2 p {
+
+  	margin: 5px;
+  	padding: 10px;
+  	overflow: hidden;
+  	background-color: #897BAF;
+    border-radius: 5%;
+	  text-align: center;
+	  font-style: italic;
+		color: black !important ;
+}
+
+.main-content-box1 p{
+	
+	background-color:#67BFCB;
+	color: black !important ;
+	padding: 10px;
+	overflow: hidden;
+  border-radius: 5%;
+ 
+
+}
+
+.main-content-box1 img{
+	
+
+	width : wh-100;
+	display:inline-grid;
+  border-radius: 5%;
+  flex-shrink:3 ;
+  width:100%;
+}
+
+.main-content-box2 p{
+	
+	background-color:#67BFCB;
+	color: black !important ;
+	padding: 10px;
+	overflow: hidden;
+  border-radius: 5%;
+
+}
